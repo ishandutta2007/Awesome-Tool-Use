@@ -1,11 +1,12 @@
-# Awesome-Tool-Use
+# 🛠️ Awesome Tool Use
+![Awesome Tool Use Banner](assets/banner.svg)
 ## Tool Use in LLMs: History, Progression, Variants, & Applications
 
 Tool Use—also referred to as function calling, tool-augmented generation, or tool-dispatched execution [INDEX: 12]—is a pivotal architectural paradigm that transforms Large Language Models (LLMs) from closed-box text predictors into active, environment-aware reasoning agents [INDEX: 12]. While an un-augmented LLM relies entirely on its frozen parametric memory, tool use enables the network to interact dynamically with external systems [INDEX: 12]. By outputting structured text blocks (typically JSON or XML schemas) that match explicit software specifications, the model interfaces with external execution engines—such as web browsers, code compilers, databases, or local operating systems—and integrates the execution output back into its context window to finalize its reasoning [INDEX: 12].
 
 ---
 
-## 1. The Macro Chronological Evolution
+## 📅 1. The Macro Chronological Evolution
 
 The technical integration of external software components with language networks has transitioned from hand-crafted prompting loops to native fine-tuned function calling layers and open-standard client-server orchestration protocols.
 
@@ -24,7 +25,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Interaction Variants
+## 🔄 2. Core Functional & Interaction Variants
 
 Tool Use workflows are strictly categorized based on the autonomy level of the loop execution and the multi-step structural depth of the reasoning pipeline.
 
@@ -36,7 +37,7 @@ Tool Use workflows are strictly categorized based on the autonomy level of the l
 
 ---
 
-## 3. Tool Modality & Capability Types
+## 🧰 3. Tool Modality & Capability Types
 
 Depending on the operational demands of the enterprise architecture, language models interface with several distinct classes of computational tools [INDEX: 12].
 
@@ -48,7 +49,7 @@ Depending on the operational demands of the enterprise architecture, language mo
 
 ---
 
-## 4. Production Engineering Challenges & Hardening Countermeasures
+## 🛡️ 4. Production Engineering Challenges & Hardening Countermeasures
 
 Deploying Tool-Augmented workflows inside enterprise production stacks introduces critical security boundaries, context inflation, and latency penalties [INDEX: 12].
 
@@ -59,7 +60,7 @@ Deploying Tool-Augmented workflows inside enterprise production stacks introduce
 
 ---
 
-## 5. Frontier Real-World AI Industrial Applications
+## 🚀 5. Frontier Real-World AI Industrial Applications
 
 | Industrial Application | Description | First Used Year | First Used Paper |
 | :--- | :--- | :---: | :--- |
@@ -69,7 +70,7 @@ Deploying Tool-Augmented workflows inside enterprise production stacks introduce
 
 ---
 
-## References
+## 📚 References
 1. Schick, T., et al. (2023). Toolformer: Language models can teach themselves to use tools. *Advances in Neural Information Processing Systems (NeurIPS)*.
 2. Yao, S., et al. (2022). ReAct: Synergizing reasoning and acting in language models. *International Conference on Learning Representations (ICLR)* [INDEX: 12].
 3. Mialon, G., et al. (2023). Augmented language models: A survey. *arXiv preprint arXiv:2302.07842*.
