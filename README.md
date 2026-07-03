@@ -105,3 +105,17 @@ To assist with your documentation repository setup, let me know how you would li
 * I can generate a **Markdown matrix table** tracking the tool execution reliability scores and structural JSON adherence parameters of the leading open-weight language models [INDEX: 12].
 * I can write a detailed technical explanation focusing on **how to leverage Process-Supervised Reward Models (PRMs)** to optimize the strategic tool selection paths of autonomous multi-agent graphs [INDEX: 12].
 
+---
+
+## Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Tool-Use&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Tool-Use&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Tool-Use&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Tool-Use&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
+
+
