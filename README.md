@@ -28,16 +28,16 @@ The technical integration of external software components with language networks
 
 Tool Use workflows are strictly categorized based on the autonomy level of the loop execution and the multi-step structural depth of the reasoning pipeline.
 
-### A. Single-Turn Function Dispatch
-*   **Mechanism:** The user query maps directly to a clear computational requirement. The model identifies the matching schema, emits the execution arguments, and immediately outputs the final response once the system returns the data [INDEX: 12].
-*   **Example:** User asks to calculate a loan amortization matrix or convert time zones.
+- ### A. Single-Turn Function Dispatch
+	*   **Mechanism:** The user query maps directly to a clear computational requirement. The model identifies the matching schema, emits the execution arguments, and immediately outputs the final response once the system returns the data [INDEX: 12].
+	*   **Example:** User asks to calculate a loan amortization matrix or convert time zones.
 
-### B. Multi-Step Autonomous Loops (Agentic Tool Use)
-*   **Mechanism:** The model encounters an abstract, long-horizon query. It treats tool use as an iterative search graph: invoking tool A, ingesting the observation, evaluating intermediate success metrics, and dynamically deciding whether to invoke tool B or adjust its parameters [INDEX: 12].
-*   **Example:** Investigating an un-indexed financial or security anomaly across multiple distinct data silos [INDEX: 12].
+- ### B. Multi-Step Autonomous Loops (Agentic Tool Use)
+	*   **Mechanism:** The model encounters an abstract, long-horizon query. It treats tool use as an iterative search graph: invoking tool A, ingesting the observation, evaluating intermediate success metrics, and dynamically deciding whether to invoke tool B or adjust its parameters [INDEX: 12].
+	*   **Example:** Investigating an un-indexed financial or security anomaly across multiple distinct data silos [INDEX: 12].
 
-### C. Closed-Loop Self-Correction / Sandboxed Compilation
-*   **Mechanism:** Pairs tool invocation with automated error tracking [INDEX: 12]. If an external tool crashes or returns an error payload (such as a Python compiler syntax error), the scaffolding feeds the stack trace back to the model, instructing it to self-correct its arguments and re-try [INDEX: 12].
+- ### C. Closed-Loop Self-Correction / Sandboxed Compilation
+	*   **Mechanism:** Pairs tool invocation with automated error tracking [INDEX: 12]. If an external tool crashes or returns an error payload (such as a Python compiler syntax error), the scaffolding feeds the stack trace back to the model, instructing it to self-correct its arguments and re-try [INDEX: 12].
 
 ---
 
