@@ -10,7 +10,10 @@ Tool Use—also referred to as function calling, tool-augmented generation, or t
 The technical integration of external software components with language networks has transitioned from hand-crafted prompting loops to native fine-tuned function calling layers and open-standard client-server orchestration protocols.
 
 ```mermaid
-[Prompt-Based Loops (ReAct, 2022)] ───> [Native Tool-Calling API Layers (2023)] ───> [Unified Abstraction Ecosystems (MCP, 2025+)](Fragile Manual Text Regex Strings)       (Fine-Tuned JSON Schema Outputs)          (Plug-and-Play Cross-Model Client Server)
+flowchart LR
+    A["Prompt-Based Loops (ReAct, 2022)<br/>(Fragile Manual Text & Regex Parsing)"]
+    --> B["Native Tool-Calling API Layers (2023)<br/>(Fine-Tuned JSON Schema Outputs)"]
+    --> C["Unified Abstraction Ecosystems (MCP, 2025+)<br/>(Plug-and-Play Cross-Model Client–Server Integration)"]
 ```
 
 *   **The Prompt-Based ReAct Era (~2022–2023)**
