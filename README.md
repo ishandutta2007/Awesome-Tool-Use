@@ -1,5 +1,16 @@
+<!--
+Title: Awesome Tool Use - Complete Guide to LLM Function Calling and Agents
+Description: A curated repository covering the history, progression, variants, modalities, and real-world industrial applications of Tool Use and Function Calling in Large Language Models (LLMs).
+Keywords: LLM Tool Use, Function Calling, ReAct, Model Context Protocol, MCP, Agentic AI, SWE-Agent, Toolformer
+-->
+
 # 🛠️ Awesome Tool Use
 ![Awesome Tool Use Banner](assets/banner.svg)
+
+<p align="left">
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+</p>
+
 ## Tool Use in LLMs: History, Progression, Variants, & Applications
 
 Tool Use—also referred to as function calling, tool-augmented generation, or tool-dispatched execution [INDEX: 12]—is a pivotal architectural paradigm that transforms Large Language Models (LLMs) from closed-box text predictors into active, environment-aware reasoning agents [INDEX: 12]. While an un-augmented LLM relies entirely on its frozen parametric memory, tool use enables the network to interact dynamically with external systems [INDEX: 12]. By outputting structured text blocks (typically JSON or XML schemas) that match explicit software specifications, the model interfaces with external execution engines—such as web browsers, code compilers, databases, or local operating systems—and integrates the execution output back into its context window to finalize its reasoning [INDEX: 12].
